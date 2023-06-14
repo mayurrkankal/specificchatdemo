@@ -1,0 +1,343 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story:  anxiety_feelings
+  steps:
+  - intent: anxiety_feelings
+  - action: utter_understand_anxiety_feelings  
+
+- story:  anxiety_causes
+  steps:
+  - intent: anxiety_causes
+  - action: utter_anxiety_causes
+
+- story:  anxiety_symptoms
+  steps:
+  - intent: anxiety_symptoms
+  - action: utter_anxiety_symptoms
+
+- story:  anxiety_management
+  steps:
+  - intent: anxiety_management
+  - action: utter_anxiety_management
+
+- story:  meditation_benefits
+  steps:
+  - intent: meditation_benefits
+  - action: utter_meditation_benefits
+
+- story:  meditation_techniques
+  steps:
+  - intent: meditation_techniques
+  - action: utter_meditation_techniques
+
+- story:  breathing_exercises
+  steps:
+  - intent: breathing_exercises
+  - action: utter_breathing_exercises
+
+- story:  meditation_apps
+  steps:
+  - intent: meditation_apps
+  - action: utter_meditation_apps
+
+- story:  coping_strategies
+  steps:
+  - intent: coping_strategies
+  - action: utter_coping_strategies
+
+- story:  mindfulness_practices
+  steps:
+  - intent: mindfulness_practices
+  - action: utter_mindfulness_practices
+
+- story:  relaxation_techniques
+  steps:
+  - intent: relaxation_techniques
+  - action: utter_relaxation_techniques
+
+- story:  panic_attacks
+  steps:
+  - intent: panic_attacks
+  - action: utter_panic_attacks
+
+- story:  stress_feelings
+  steps:
+  - intent: stress_feelings
+  - action: utter_understand_stress_feelings
+
+- story:  stress_causes
+  steps:
+  - intent: stress_causes
+  - action: utter_stress_causes
+
+- story:  stress_symptoms
+  steps:
+  - intent: stress_symptoms
+  - action: utter_stress_symptoms
+
+- story:  stress_management
+  steps:
+  - intent: stress_management
+  - action: utter_stress_management
+
+
+
+- story:  stress_coping_strategies
+  steps:
+  - intent: stress_coping_strategies
+  - action: utter_stress_coping_strategies
+
+- story:  self-care_tips
+  steps:
+  - intent: self-care_tips
+  - action: utter_self_care_tips
+
+- story:  stress_reduction_activities
+  steps:
+  - intent: stress_reduction_activities
+  - action: utter_stress_reduction_activities
+
+- story:  stress_workplace
+  steps:
+  - intent: stress_workplace
+  - action: utter_stress_workplace
+
+- story:  stress_relationships
+  steps:
+  - intent: stress_relationships
+  - action: utter_stress_relationships
+
+- story:  stress_management_tips
+  steps:
+  - intent: stress_management_tips
+  - action: utter_stress_management_tips
+
+- story:  stress_and_health
+  steps:
+  - intent: stress_and_health
+  - action: utter_stress_and_health
+
+- story:  stress_at_work
+  steps:
+  - intent: stress_at_work
+  - action: utter_stress_at_work
+
+- story:  stress_and_productivity
+  steps:
+  - intent: stress_and_productivity
+  - action: utter_stress_and_productivity
+
+- story:  stress_and_relationships
+  steps:
+  - intent: stress_and_relationships
+  - action: utter_stress_and_relationships
+
+- story:  stress_and_sleep
+  steps:
+  - intent: stress_and_sleep
+  - action: utter_stress_and_sleep
+
+- story:  stress_and_emotions
+  steps:
+  - intent: stress_and_emotions
+  - action: utter_stress_and_emotions
+
+- story:  stress_and_time_management
+  steps:
+  - intent: stress_and_time_management
+  - action: utter_stress_and_time_management
+
+- story:  stress_and_burnout
+  steps:
+  - intent: stress_and_burnout
+  - action: utter_stress_and_burnout
+
+- story:  stress_and_resilience
+  steps:
+  - intent: stress_and_resilience
+  - action: utter_stress_and_resilience
+
+- story:  stress_and_coping_skills
+  steps:
+  - intent: stress_and_coping_skills
+  - action: utter_stress_and_coping_skills
+
+- story:  stress_relationships
+  steps:
+  - intent: stress_relationships
+  - action: utter_stress_relationships   
+
+- story:  stress_and_exercise
+  steps:
+  - intent: stress_and_exercise
+  - action: utter_stress_and_exercise
+
+- story:  stress_and_work-life_balance
+  steps:
+  - intent: stress_and_work-life_balance
+  - action: utter_stress_and_work_life_balance
+
+- story:  stress_and_mindfulness
+  steps:
+  - intent: stress_and_mindfulness
+  - action: utter_stress_and_mindfulness
+
+- story:  stress_and_positive_thinking
+  steps:
+  - intent: stress_and_positive_thinking
+  - action: utter_stress_and_positive_thinking
+
+- story:  stress_and_self-care
+  steps:
+  - intent: stress_and_self-care
+  - action: utter_stress_and_self_care
+
+- story:  stress_and_social_support
+  steps:
+  - intent: stress_and_social_support
+  - action: utter_stress_and_social_support
+
+
+- story:  stress_and_time_for_self
+  steps:
+  - intent: stress_and_time_for_self
+  - action: utter_stress_and_time_for_self   
+
+- story:  stress_and_breathing_techniques
+  steps:
+  - intent: stress_and_breathing_techniques
+  - action: utter_stress_and_breathing_techniques
+
+
+- story:  stress_and_cognitive_distortions
+  steps:
+  - intent: stress_and_cognitive_distortions
+  - action: utter_stress_and_cognitive_distortions
+
+- story:  stress_and_emotional_regulation
+  steps:
+  - intent: stress_and_emotional_regulation
+  - action: utter_stress_and_emotional_regulation
+
+- story:  stress_and_boundaries
+  steps:
+  - intent: stress_and_boundaries
+  - action: utter_stress_and_boundaries
+
+
+- story:  stress_and_resilience_building
+  steps:
+  - intent: stress_and_resilience_building
+  - action: utter_stress_and_resilience_building
+
+
+- story:  stress_and_financial_stress
+  steps:
+  - intent: stress_and_financial_stress
+  - action: utter_stress_and_financial_stress
+
+- story:  stress_and_parenting
+  steps:
+  - intent: stress_and_parenting
+  - action: utter_stress_and_parenting
+
+- story:  stress_and_technology_overload
+  steps:
+  - intent: stress_and_technology_overload
+  - action: utter_stress_and_technology_overload
+
+- story:  stress_and_healthy_lifestyle
+  steps:
+  - intent: stress_and_healthy_lifestyle
+  - action: utter_stress_and_healthy_lifestyle 
+
+ 
+
+- story:  stress_and_creativity
+  steps:
+  - intent: stress_and_creativity
+  - action: utter_stress_and_creativity 
+
+- story:  stress_and_gratitude
+  steps:
+  - intent: stress_and_gratitude
+  - action: utter_stress_and_gratitude 
+
+- story:  stress_and_time_out
+  steps:
+  - intent: stress_and_time_out
+  - action: utter_stress_and_time_out 
+
+- story:  stress_and_humor
+  steps:
+  - intent: stress_and_humor
+  - action: utter_stress_and_humor 
+
+- story:  stress_and_communication
+  steps:
+  - intent: stress_and_communication
+  - action: utter_stress_and_communication 
+ 
+
+
+- story:  stress_and_decision_making
+  steps:
+  - intent: stress_and_decision_making
+  - action: utter_stress_and_decision_making 
+
+- story:  stress_and_goal_setting
+  steps:
+  - intent: stress_and_goal_setting
+  - action: utter_stress_and_goal_setting 
+
+- story:  stress_and_wellness_activities
+  steps:
+  - intent: stress_and_wellness_activities
+  - action: utter_stress_and_wellness_activities 
+
+- story:  stress_and_emotional_support
+  steps:
+  - intent: stress_and_emotional_support
+  - action: utter_stress_and_emotional_support 
+
+- story:  stress_and_conflict_resolution
+  steps:
+  - intent: stress_and_conflict_resolution
+  - action: utter_stress_and_conflict_resolution         
+
+
+
+
+
+
+
+

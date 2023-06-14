@@ -1,0 +1,504 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - feeling stressed
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: anxiety_feelings
+  examples: |
+    - I'm feeling really anxious and overwhelmed.
+    - I can't calm down, and it's making me anxious.
+    - My anxiety is getting worse, and I don't know what to do. 
+
+- intent: anxiety_causes
+  examples: |
+    - What are the common causes of anxiety?
+    - Can you tell me why I'm experiencing anxiety?
+    - Are there specific factors that contribute to anxiety?
+
+
+
+
+- intent: anxiety_symptoms
+  examples: |
+    - What are the symptoms of anxiety?
+    - How do I know if I have anxiety?
+    - Can you explain the physical and emotional symptoms of anxiety?
+
+
+
+- intent: anxiety_management
+  examples: |
+    - How can I manage my anxiety?
+    - What strategies can I use to cope with anxiety?
+    - Are there any techniques to help me control my anxiety?
+
+
+
+
+- intent: meditation_benefits
+  examples: |
+    - What are the benefits of meditation for anxiety?
+    - Can meditation really help with anxiety?
+    - How does meditation affect anxiety levels?
+
+
+ 
+
+- intent: meditation_techniques
+  examples: |
+    - Can you suggest some meditation techniques for anxiety?
+    - What are some effective meditation practices to reduce anxiety?
+    - Are there specific types of meditation that are recommended for anxiety?
+
+
+
+
+- intent: breathing_exercises
+  examples: |
+    - Can you recommend any breathing exercises for anxiety?
+    - How can deep breathing help with anxiety?
+    - Are there specific breathing techniques that are helpful for anxiety relief?
+
+
+
+
+- intent: meditation_apps
+  examples: |
+    - Are there any meditation apps you would recommend for anxiety?
+    - Can you suggest some mobile apps for guided meditation?
+    - Which meditation apps have features for anxiety management?
+
+
+
+
+- intent: coping_strategies
+  examples: |
+    - What are some effective coping strategies for anxiety?
+    - How can I better cope with my anxiety on a daily basis?
+    - Are there any self-care practices that can help with anxiety?
+
+
+
+
+- intent: mindfulness_practices
+  examples: |
+    - Can you explain mindfulness and its role in managing anxiety?
+    - What are some mindfulness exercises for anxiety relief?
+    - How can I incorporate mindfulness into my daily life to reduce anxiety?
+
+
+
+
+- intent: relaxation_techniques
+  examples: |
+    - Are there any relaxation techniques I can use to calm my anxiety?
+    - Can you suggest some relaxation exercises for anxiety?
+    - How do relaxation techniques help in managing anxiety?
+
+
+
+
+- intent: panic_attacks
+  examples: |
+    - What should I do when experiencing a panic attack?
+    - How can I manage and prevent panic attacks?
+    - Are there any techniques to help me control my panic attacks?
+
+- intent: stress_feelings
+  examples: |
+    - I'm feeling stressed out and overwhelmed.
+    - The stress is getting to me, and I don't know how to cope.
+    - I can't seem to relax, and it's causing me stress.  
+
+- intent: stress_causes
+  examples: |
+    - What are the common causes of stress?
+    - Can you tell me why I'm experiencing stress?
+    - Are there specific factors that contribute to stress? 
+
+- intent: stress_symptoms
+  examples: |
+    - What are the symptoms of stress?
+    - How do I know if I'm experiencing stress?
+    - Can you explain the physical and emotional symptoms of stress? 
+
+- intent: stress_management
+  examples: |
+    - How can I manage my stress?
+    - What strategies can I use to cope with stress?
+    - Are there any techniques to help me control my stress levels? 
+
+ 
+
+- intent: stress_coping_strategies
+  examples: |
+    - What are some effective coping strategies for stress?
+    - How can I better cope with my stress on a daily basis?
+    - Are there any self-care practices that can help with stress management? 
+
+- intent: self-care_tips
+  examples: |
+    - What are some self-care tips for managing stress?
+    - How can I prioritize self-care to reduce stress?
+    - Are there specific activities I can do to take care of myself during stressful times? 
+
+- intent: stress_reduction_activities
+  examples: |
+    - Can you suggest any activities that can help reduce stress?
+    - What are some stress-relieving hobbies or exercises?
+    - Are there specific activities that promote relaxation and stress reduction? 
+
+- intent: stress_workplace
+  examples: |
+    - How can I manage stress in the workplace?
+    - What are some strategies for dealing with work-related stress?
+    - Are there any tips for creating a less stressful work environment? 
+
+- intent: stress_relationships
+  examples: |
+    - How can I navigate stress in my relationships?
+    - Are there strategies for managing relationship stress?
+    - What can I do to improve communication and reduce stress in my relationships? 
+
+- intent: stress_and_health
+  examples: |
+    - How does stress affect our physical health?
+    - Can stress contribute to health problems?
+    - What are the connections between stress and overall well-being?
+
+- intent: stress_at_work
+  examples: |
+    - How can I handle stress in the workplace?
+    - What are some techniques for managing work-related stress?
+    - Are there any tips for creating a less stressful work environment?
+
+
+
+- intent: stress_and_relationships
+  examples: |
+    - How can stress affect our relationships?
+    - Are there techniques for managing stress within relationships?
+    - What can I do to prevent stress from negatively impacting my relationships?
+
+- intent: stress_and_sleep
+  examples: |
+    - Can stress interfere with sleep quality?
+    - How does stress affect our ability to sleep?
+    - Are there any tips for improving sleep despite stress?
+
+- intent: stress_and_emotions
+  examples: |
+    - How does stress influence our emotions?
+    - Can stress contribute to mood swings and irritability?
+    - Are there strategies for managing emotional stress?
+
+
+
+- intent: stress_and_burnout
+  examples: |
+    - What is burnout and how is it related to stress?
+    - Are there signs and symptoms of burnout?
+    - What are some strategies for preventing or recovering from burnout?
+
+- intent: stress_and_resilience
+  examples: |
+    - How can we build resilience to better cope with stress?
+    - Are there practices that enhance our resilience to stress?
+    - What can I do to strengthen my resilience in the face of stress?
+
+- intent: stress_and_coping_skills
+  examples: |
+    - What are some effective coping skills for managing stress?
+    - Can you suggest coping mechanisms to deal with stress?
+    - Are there specific techniques to build healthy coping skills?
+
+- intent: stress_and_exercise
+  examples: |
+    - How does exercise help in reducing stress?
+    - What are some recommended exercises for stress relief?
+    - Can you suggest a workout routine to manage stress?
+
+- intent: stress_and_work-life_balance
+  examples: |
+    - How can I achieve a better work-life balance to reduce stress?
+    - What are some strategies for maintaining a healthy balance between work and personal life?
+    - Can you provide tips for setting boundaries to manage work-related stress?
+
+- intent: stress_and_mindfulness
+  examples: |
+    - What is the role of mindfulness in stress management?
+    - How can I incorporate mindfulness practices into my daily routine?
+    - Can you recommend mindfulness apps or resources for stress reduction?
+
+- intent: stress_and_positive_thinking
+  examples: |
+    - How can I cultivate a positive mindset to cope with stress?
+    - Are there techniques for reframing negative thoughts and promoting positivity?
+    - Can you suggest affirmations or mantras for stress relief?
+
+- intent: stress_and_self-care
+  examples: |
+    - What are some effective self-care practices for stress reduction?
+    - How can I prioritize self-care amidst a busy schedule?
+    - Can you recommend self-care activities for relaxation and rejuvenation?
+
+
+
+- intent: stress_and_healthy_habits
+  examples: |
+    - How do healthy habits contribute to stress management?
+    - Can you suggest some healthy habits to incorporate into daily life for stress reduction?
+    - What is the connection between nutrition and stress?
+
+- intent: stress_and_time_for_self
+  examples: |
+    - How can I find time for myself amidst a busy schedule and responsibilities?
+    - Are there strategies for prioritizing self-time and self-care?
+    - Can you suggest activities for self-reflection and rejuvenation?  
+
+- intent: stress_and_breathing_techniques
+  examples: |
+    - What are some breathing techniques for stress relief?
+    - How can deep breathing help in managing stress?
+    - Can you guide me through a simple breathing exercise?
+
+- intent: stress_and_time_management
+  examples: |
+    - How can I effectively manage my time to reduce stress?
+    - What are some time management strategies for stress reduction?
+    - Can you provide tips for prioritizing tasks and avoiding procrastination?
+
+- intent: stress_and_cognitive_distortions
+  examples: |
+    - How do cognitive distortions contribute to stress?
+    - Can you explain common cognitive distortions and how to challenge them?
+    - What are some techniques for reframing negative thoughts?
+
+- intent: stress_and_emotional_regulation
+  examples: |
+    - How can I better regulate my emotions during times of stress?
+    - What are some healthy coping mechanisms for dealing with intense emotions?
+    - Can you provide strategies for practicing emotional self-care?
+
+- intent: stress_and_boundaries
+  examples: |
+    - How can setting boundaries help in managing stress?
+    - Can you provide tips for establishing and maintaining healthy boundaries?
+    - What are some ways to communicate boundaries effectively?
+
+
+
+- intent: stress_and_resilience_building
+  examples: |
+    - How can I build resilience to better cope with stress?
+    - What are some practices for developing emotional resilience?
+    - Can you provide tips for bouncing back from adversity?
+
+- intent: stress_and_workplace_stress
+  examples: |
+    - How can I handle stress in the workplace?
+    - What are some techniques for managing work-related stress?
+    - Can you provide guidance on maintaining work-life balance?
+
+- intent: stress_and_financial_stress
+  examples: |
+    - How does financial stress impact overall well-being?
+    - What are some strategies for reducing financial stress?
+    - Can you provide tips for effective budgeting and financial planning?
+
+- intent: stress_and_parenting
+  examples: |
+    - How can I manage stress while parenting?
+    - What are some techniques for balancing parenting responsibilities and self-care?
+    - Can you provide guidance on fostering a positive parent-child relationship?
+
+- intent: stress_and_technology_overload
+  examples: |
+    - How does technology contribute to stress?
+    - What are some techniques for managing technology overload and digital stress?
+    - Can you provide tips for establishing healthy technology boundaries?
+
+- intent: stress_and_healthy_lifestyle
+  examples: |
+    - How does maintaining a healthy lifestyle contribute to stress reduction?
+    - What are some healthy habits that can help manage stress?
+    - Can you provide tips for a balanced diet and good sleep hygiene? 
+
+- intent: stress_and_social_support
+  examples: |
+    - How does social support influence stress levels?
+    - What are some ways to seek social support when feeling stressed?
+    - Can you provide guidance on building a support network?
+
+
+
+- intent: stress_and_creativity
+  examples: |
+    - How does engaging in creative activities help with stress management?
+    - What are some creative outlets that can alleviate stress?
+    - Can you provide ideas for creative projects to reduce stress?
+
+- intent: stress_and_gratitude
+  examples: |
+    - How does practicing gratitude contribute to stress reduction?
+    - What are some ways to cultivate gratitude in daily life?
+    - Can you suggest a gratitude journaling exercise?
+
+- intent: stress_and_time_out
+  examples: |
+    - Why is it important to take breaks and have "me" time for stress management?
+    - What are some activities I can do during my breaks to relax and recharge?
+    - Can you provide tips for creating a calm and peaceful environment during time-outs?
+
+- intent: stress_and_humor
+  examples: |
+    - How does humor help in relieving stress?
+    - Can you share a funny joke or a lighthearted story to lighten the mood?
+    - What are some ways to incorporate humor into daily life for stress relief?
+
+- intent: stress_and_communication
+  examples: |
+    - How can I improve my communication skills to reduce stress?
+    - What are some active listening techniques for better communication during stressful conversations?
+    - Can you provide tips for expressing my needs and boundaries effectively? 
+
+
+
+- intent: stress_and_productivity
+  examples: |
+    - How can I stay focused and productive during stressful times?
+    - What are some strategies for overcoming procrastination and staying motivated?
+    - Can you suggest techniques for managing work overload and maintaining work-life balance?
+
+- intent: stress_and_decision_making
+  examples: |
+    - How can I make better decisions when I'm feeling stressed?
+    - What are some techniques for reducing decision fatigue and improving decision-making under stress?
+    - Can you provide guidance on weighing pros and cons and considering long-term consequences?
+
+- intent: stress_and_goal_setting
+  examples: |
+    - How can goal setting help in managing stress?
+    - What are some effective goal-setting strategies for stress reduction?
+    - Can you provide guidance on setting realistic and achievable goals?
+
+- intent: stress_and_wellness_activities
+  examples: |
+    - What are some wellness activities that can help me relax and reduce stress?
+    - Can you suggest self-care practices for overall well-being?
+    - Can you provide ideas for incorporating mindfulness and relaxation into my daily routine?
+
+- intent: stress_and_emotional_support
+  examples: |
+    - How can I seek emotional support when feeling stressed?
+    - What are some healthy coping mechanisms for managing overwhelming emotions?
+    - Can you provide guidance on reaching out to friends, family, or professionals for support?
+
+- intent: stress_and_conflict_resolution
+  examples: |
+    - How can I resolve conflicts in a healthy and constructive way?
+    - What are some strategies for effective conflict resolution during stressful situations?
+    - Can you provide tips for active listening and finding common ground?
+
+- intent: stress_and_mental_health
+  examples: |
+    - How does stress affect mental health?
+    - What are some techniques for managing stress-related anxiety and depression?
+    - Can you provide resources or information on mental health support?
+
+
+
+                                                                                                                                                                                       
+
+                                          
+
+
+

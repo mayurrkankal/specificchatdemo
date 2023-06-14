@@ -1,0 +1,284 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - anxiety_feelings
+  - anxiety_causes
+  - anxiety_symptoms
+  - anxiety_management
+  - meditation_benefits
+  - meditation_techniques
+  - breathing_exercises
+  - meditation_apps
+  - coping_strategies
+  - mindfulness_practices
+  - relaxation_techniques
+  - panic_attacks
+  - stress_feelings
+  - stress_causes
+  - stress_symptoms
+  - stress_management
+  - stress_coping_strategies
+  - self-care_tips
+  - stress_reduction_activities
+  - stress_workplace
+  - stress_relationships
+  - stress_management_tips
+  - stress_and_health
+  - stress_at_work
+  - stress_and_productivity
+  - stress_and_relationships
+  - stress_and_sleep
+  - stress_and_emotions
+  - stress_and_time_management
+  - stress_and_burnout
+  - stress_and_resilience
+  - stress_and_coping_skills
+  - stress_and_exercise
+  - stress_and_work-life_balance
+  - stress_and_mindfulness
+  - stress_and_positive_thinking
+  - stress_and_self-care
+  - stress_and_social_support
+  - stress_and_healthy_habits
+  - stress_and_time_for_self
+  - stress_and_breathing_techniques
+  - stress_and_cognitive_distortions
+  - stress_and_emotional_regulation
+  - stress_and_boundaries
+  - stress_and_resilience_building
+  - stress_and_workplace_stress
+  - stress_and_financial_stress
+  - stress_and_parenting
+  - stress_and_technology_overload
+  - stress_and_healthy_lifestyle
+  - stress_and_creativity
+  - stress_and_gratitude
+  - stress_and_time_out
+  - stress_and_humor
+  - stress_and_communication
+  - stress_and_decision_making
+  - stress_and_goal_setting
+  - stress_and_wellness_activities
+  - stress_and_emotional_support
+  - stress_and_conflict_resolution
+  - stress_and_mental_health
+
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_understand_anxiety_feelings: 
+  - text: "I understand that feeling anxious can be overwhelming. It's important to address your anxiety and find strategies to manage it. How can I support you today?"
+
+  utter_anxiety_causes:
+  - text: "Anxiety can have various causes, including genetic factors, past experiences, or ongoing stress. Identifying the underlying causes can be helpful in managing anxiety. Would you like to know more about specific causes?"
+
+  utter_anxiety_symptoms:
+  - text: "Common symptoms of anxiety include excessive worry, restlessness, irritability, difficulty concentrating, and physical symptoms such as rapid heartbeat or shortness of breath. If you are experiencing these symptoms, it's essential to seek professional help for a proper evaluation."
+
+  utter_anxiety_management:
+  - text: "Managing anxiety involves a combination of techniques, including therapy, medication (if prescribed), self-care practices, and stress management. It's best to consult with a mental health professional who can provide personalized guidance based on your specific needs."
+
+  utter_meditation_benefits:
+  - text: "Meditation has been shown to have several benefits for anxiety, such as reducing stress, promoting relaxation, and improving overall well-being. Regular meditation practice can help calm the mind and cultivate a sense of inner peace."
+
+  utter_meditation_techniques:
+  - text:  "There are different meditation techniques you can try, such as mindfulness meditation, guided visualization, or loving-kindness meditation. It's important to explore different techniques and find the one that resonates with you. Would you like more information on a specific technique?"
+
+  utter_breathing_exercises:
+  - text: "Deep breathing exercises can help calm anxiety. One technique is diaphragmatic breathing, where you breathe deeply, expanding your belly. Another technique is the 4-7-8 breathing, where you inhale for 4 seconds, hold for 7 seconds, and exhale for 8 seconds. These exercises can help relax your body and mind."
+
+  utter_meditation_apps:
+  - text: "There are several meditation apps available that can assist with anxiety, such as Headspace, Calm, Insight Timer, or Aura. These apps provide guided meditations, breathing exercises, and other resources to help manage anxiety. You can try downloading one of these apps and see which works best for you."
+
+  utter_coping_strategies:
+  - text: "Coping strategies for anxiety include regular exercise, practicing relaxation techniques, maintaining a balanced lifestyle, seeking support from loved ones, and considering therapy or counseling. It's important to find healthy ways to cope with anxiety and develop a self-care routine."
+
+  utter_mindfulness_practices:
+  - text: "Mindfulness practices can be beneficial for anxiety. These include focusing on the present moment, observing thoughts and feelings without judgment, practicing self-compassion, and incorporating mindfulness into daily activities. Mindfulness can help increase awareness and reduce anxiety."
+
+  utter_relaxation_techniques:
+  - text: "There are various relaxation techniques that can help alleviate anxiety, such as progressive muscle relaxation, guided imagery, aromatherapy, listening to calming music, taking a warm bath, or engaging in hobbies or activities you enjoy. These techniques can promote relaxation and reduce stress."
+
+  utter_panic_attacks:
+  - text: "Panic attacks can be distressing, but there are techniques to manage them. Deep breathing, grounding exercises, and focusing on your senses can help. It's also important to seek professional help to understand and address the underlying causes of your panic attacks."      
+
+  utter_understand_stress_feelings:
+  - text: "I understand that feeling stressed can be overwhelming. It's important to address your stress and find strategies to manage it. How can I support you today?"
+
+  utter_stress_causes:
+  - text: "Stress can have various causes, such as work pressure, financial difficulties, relationship issues, or major life changes. Identifying the underlying causes can be helpful in managing stress. Would you like to know more about specific causes?"
+
+  utter_stress_symptoms:
+  - text: "Common symptoms of stress include irritability, difficulty concentrating, changes in appetite, sleep disturbances, and physical symptoms like headaches or muscle tension. If you are experiencing these symptoms, it's important to seek strategies for stress management."
+
+  utter_stress_management:
+  - text: "Managing stress involves a combination of techniques, including relaxation exercises, time management, seeking support, and practicing self-care. It's best to explore different strategies and find the ones that work best for you. Would you like more information on stress management techniques?"
+
+  
+
+  utter_stress_coping_strategies:
+  - text: "Coping strategies for stress include exercise, practicing mindfulness, journaling, seeking social support, or engaging in activities that help you relax. It's important to find healthy ways to cope with stress and prioritize self-care."
+
+  utter_self_care_tips:
+  - text: "Self-care is crucial for managing stress. Some self-care tips include getting enough sleep, eating a balanced diet, practicing relaxation techniques, setting boundaries, and engaging in activities that bring you joy and relaxation."
+
+  utter_stress_reduction_activities:
+  - text:  "Engaging in stress-reducing activities can be beneficial. Some examples include going for a walk in nature, listening to calming music, practicing yoga or meditation, or engaging in creative pursuits. These activities can help reduce stress and promote well-being."
+
+  utter_stress_workplace:
+  - text: "Managing stress in the workplace involves setting realistic expectations, prioritizing tasks, practicing time management, and seeking support from colleagues or supervisors. It's important to create a healthy work environment and take breaks when needed."
+
+  utter_stress_relationships:
+  - text:  "Navigating stress in relationships can be challenging. Effective communication, active listening, and setting boundaries are important in reducing relationship stress. Seeking couples counseling or individual therapy can also be beneficial in addressing relationship-related stress."
+
+  utter_stress_management_tips:
+  - text: "Here are some stress management tips: prioritize self-care, practice relaxation techniques, engage in regular physical activity, maintain a healthy work-life balance, and seek support from friends, family, or professionals."
+
+  utter_stress_and_health:
+  - text: "Stress can affect our physical health by contributing to issues like high blood pressure, weakened immune system, and digestive problems. It's important to manage stress to promote overall well-being."
+
+  utter_stress_at_work:
+  - text: "To handle stress at work, try setting realistic goals, taking breaks, practicing effective time management, and communicating your needs and concerns with colleagues or supervisors."
+
+  utter_stress_and_productivity:
+  - text: "Stress can impact productivity, but there are strategies to maintain productivity under stress. Prioritize tasks, break them into smaller steps, delegate when possible, and practice stress-reducing techniques."
+
+  utter_stress_and_sleep:
+  - text: "Stress can interfere with sleep quality, but you can improve sleep despite stress. Establish a consistent sleep routine, create a relaxing bedtime routine, and manage stress through relaxation techniques."
+
+  utter_stress_and_emotions:
+  - text: "Stress can influence emotions, leading to mood swings and irritability. Engaging in stress-reducing activities, practicing mindfulness, and seeking emotional support can help manage emotional stress."
+
+
+  utter_stress_and_burnout:
+  - text: "Burnout is related to chronic stress. Signs include exhaustion, cynicism, and reduced productivity. Prevent or recover from burnout by setting boundaries, practicing self-care, and seeking support."
+
+  utter_stress_and_resilience:
+  - text:  "Building resilience can help cope with stress. Focus on self-care, practice positive thinking, develop problem-solving skills, and seek support from a therapist or support group."
+
+  utter_stress_and_coping_skills:
+  - text: "Healthy coping skills are important for managing stress. Engage in activities you enjoy, practice deep breathing or meditation, seek social support, and consider professional help if needed."
+
+  utter_stress_and_exercise:
+  - text: "Exercise is a great way to reduce stress. Engaging in activities like walking, jogging, yoga, or dancing can help release endorphins and promote relaxation. It's recommended to incorporate at least 30 minutes of exercise into your daily routine."
+
+  utter_stress_and_work_life_balance:
+  - text: "Achieving a healthy work-life balance is important for stress management. Consider setting boundaries, prioritizing tasks, and allocating time for activities outside of work. Remember, it's okay to take breaks and prioritize self-care."
+
+  utter_stress_and_mindfulness:
+  - text: "Mindfulness is an effective technique for stress reduction. It involves being fully present in the moment, observing thoughts and feelings without judgment. You can practice mindfulness through meditation, deep breathing exercises, or mindful activities like mindful eating or walking."
+
+  utter_stress_and_positive_thinking:
+  - text: "Positive thinking can help manage stress. Practice reframing negative thoughts into positive ones and focus on gratitude. Affirmations and mantras can also promote positivity and resilience."
+
+  utter_stress_and_self_care:
+  - text: "Self-care plays a crucial role in stress management. Prioritize activities that bring you joy and relaxation, such as taking baths, reading, practicing hobbies, or spending time in nature. Remember to listen to your body's needs and take breaks when necessary."
+
+  utter_stress_and_social_support:
+  - text: "Social support is essential for coping with stress. Seek support from friends, family, or support groups. Effective communication, sharing your feelings, and actively listening to others can help strengthen relationships and provide emotional support."
+
+  utter_stress_and_time_for_self:
+  - text: "Finding time for yourself is crucial for stress management. Prioritize self-time by scheduling it in your calendar, setting boundaries, and saying no when necessary. Engage in activities like journaling, practicing mindfulness, or engaging in hobbies that bring you joy."
+
+  utter_stress_and_breathing_techniques:
+  - text: "Deep breathing exercises can be beneficial for stress relief. One technique is diaphragmatic breathing, where you inhale deeply through your nose, allowing your belly to rise, and exhale slowly through your mouth. Would you like me to guide you through a breathing exercise?"
+
+  utter_stress_and_time_management:
+  - text: "Effective time management can help reduce stress. Consider using a calendar or planner, prioritizing tasks, and breaking them into smaller, manageable steps. Remember to allocate time for breaks and self-care."
+
+  utter_stress_and_cognitive_distortions:
+  - text:  "Cognitive distortions can contribute to stress. It's important to challenge negative thoughts and replace them with more realistic and positive ones. Techniques like cognitive restructuring and thought journaling can help in reframing negative thinking patterns."
+
+  utter_stress_and_emotional_regulation:
+  - text: "Emotional regulation is key to managing stress. Practice self-care activities like meditation, journaling, or engaging in hobbies you enjoy. Additionally, expressing emotions through healthy outlets like talking to a trusted friend or seeking professional support can be beneficial."
+
+  utter_stress_and_boundaries:
+  - text: "Setting healthy boundaries is crucial for managing stress. Clearly communicate your needs and limits to others, and don't be afraid to say no when necessary. Remember that self-care and prioritizing your well-being is important."
+
+  utter_stress_and_relationships:
+  - text: "Stress can impact relationships, but effective communication and support can help. Practice active listening, express your needs and concerns, and seek to understand others' perspectives. It's important to work together as a team during challenging times."
+
+  utter_stress_and_resilience_building:
+  - text: "Building resilience can help you cope with stress. Focus on developing a positive mindset, practicing self-care, setting realistic goals, and seeking support from loved ones. Remember that setbacks can be learning opportunities and that you have the strength to overcome challenges."
+
+  utter_stress_and_workplace_stress:
+  - text: "Managing stress in the workplace is essential for overall well-being. Prioritize tasks, delegate when possible, practice time management, and communicate effectively with colleagues and supervisors. Don't forget to take breaks and create boundaries between work and personal life."
+
+  utter_stress_and_financial_stress:
+  - text: "Financial stress can be challenging, but there are strategies to alleviate it. Create a budget, track your expenses, seek professional financial advice if needed, and explore ways to increase your financial literacy. Remember to focus on what you can control and take small steps toward financial stability."
+
+  utter_stress_and_parenting:
+  - text: "Parenting can be stressful, but self-care and support are vital. Prioritize quality time with your children, seek help from family and friends, and remember that it's okay to ask for support. Practice stress-management techniques and maintain open communication with your children."
+
+  utter_stress_and_technology_overload:
+  - text: "Technology overload can contribute to stress. Set boundaries on screen time, practice digital detoxes, and establish technology-free zones or times. Engage in activities that don't involve screens, such as hobbies, exercise, or spending time in nature."
+
+  utter_stress_and_healthy_lifestyle:
+  - text: "Maintaining a healthy lifestyle can have a positive impact on stress levels. It includes eating a balanced diet, getting regular exercise, prioritizing sleep, and managing stress through relaxation techniques."
+
+  utter_stress_and_creativity:
+  - text: "Engaging in creative activities such as painting, writing, playing an instrument, or crafting can be an effective way to reduce stress. These activities allow you to express yourself and divert your attention from stressors."
+
+
+  utter_stress_and_gratitude  :
+  - text: "Practicing gratitude involves acknowledging and appreciating the positive aspects of your life. By keeping a gratitude journal or expressing gratitude daily, you can shift your focus away from stress and cultivate a more positive outlook."
+
+  utter_stress_and_time_out:
+  - text: "Taking regular breaks and having 'me' time is essential for stress management. It's important to engage in activities that help you relax and recharge, such as going for a walk, listening to music, or practicing deep breathing exercises."
+
+  utter_stress_and_humor:
+  - text: "Humor has been found to be an effective stress reliever. It can help reduce tension and improve your mood. Let me share a funny joke with you: Why don't scientists trust atoms? Because they make up everything!" 
+
+  utter_stress_and_communication:
+  - text: "Improving communication skills can enhance your ability to navigate stressful situations. Active listening, expressing your thoughts and feelings assertively, and seeking to understand others' perspectives can lead to more effective communication and reduce misunderstandings."
+   
+  utter_stress_and_decision_making:
+  - text: "Making decisions under stress can be difficult, but there are techniques to improve the process. Taking time to breathe and calm your mind, gathering information, and considering both short-term and long-term consequences can support better decision-making."
+
+  utter_stress_and_goal_setting:
+  - text: "Goal setting can provide structure and direction for managing stress. Setting realistic and achievable goals, breaking them down into smaller milestones, and tracking your progress can help you stay motivated and focused on the things that matter most to you."
+
+  utter_stress_and_wellness_activities:
+  - text: "Engaging in wellness activities is important for managing stress. Practices such as mindfulness meditation, deep breathing exercises, journaling, engaging in hobbies, and spending time in nature can promote relaxation, improve well-being, and reduce stress levels."
+
+  utter_stress_and_emotional_support:
+  - text: "Seeking emotional support is crucial when dealing with stress. Reach out to trusted friends, family, or professionals who can provide a listening ear and offer guidance. Remember, you don't have to face stress alone, and there is support available to you."
+
+  utter_stress_and_conflict_resolution:
+  - text: "Conflict resolution skills are essential for managing stress in relationships. Active listening, practicing empathy, finding common ground, and using 'I' statements to express your feelings can facilitate constructive dialogue and lead to resolutions that reduce stress and strengthen relationships."
+
+  utter_stress_and_mental_health:
+  - text: "Stress can have an impact on mental health, and it's important to prioritize self-care. Engaging in activities that promote mental well-being, seeking professional help if needed, and practicing stress management techniques can support your mental health and overall well-being."
+
+  
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
